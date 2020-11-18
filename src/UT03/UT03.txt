@@ -1,0 +1,7 @@
+URL de git:
+https://github.com/Gorfdie/SYP/tree/master/src/UT03
+
+1. Para ejecutar el programa primero debemos iniciar la clase ServerMain
+2. Debemos ejecutar la clase ClientMain que simula la entrada de 3 usuarios que mandan un mensaje por consola
+
+Después de mucho fajarme con el JFrame e incluso intentarlo con el JFX, decidí que los usuarios deberían simular el mandar el mensaje por consola.

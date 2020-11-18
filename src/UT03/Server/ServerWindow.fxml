@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="509.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UT03.Server.ServerWindowsController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="305.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mensajes de los usuarios" wrappingWidth="195.22900390625" />
+        <Label fx:id="helloWorld" />
+
+        <TextArea fx:id="message" disable="true" editable="false" layoutX="14.0" layoutY="39.0" prefHeight="36.0" prefWidth="330.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
